@@ -36,7 +36,6 @@ Hey there, I am your personal assistant
 Type q to quit
 
 Prompt: What's the stock price of Nvidia?
-Calling a function: getStockPrice
 The current stock price of Nvidia is $887.89.
 
 Prompt: q

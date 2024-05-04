@@ -65,11 +65,8 @@ const main = async () => {
 
         for (const toolCall of toolCalls) {
           const functionName = toolCall.function.name
-          console.log(`Calling a function: ${functionName}`)
-
           const args = JSON.parse(toolCall.function.arguments)
           const output = await global[functionName].apply(null, [args])
-
           toolOutputs.push({ output, tool_call_id: toolCall.id })
         }
 
