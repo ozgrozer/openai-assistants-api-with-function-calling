@@ -13,7 +13,7 @@ global.getStockPrice = async ({ symbol }) => {
 
 const main = async () => {
   console.log('Hey there, I am your personal assistant')
-  console.log('PS: Type q to quit')
+  console.log('Type q to quit')
 
   const assistant = await openai.beta.assistants.create({
     name: 'Data Analyst',
@@ -41,7 +41,7 @@ const main = async () => {
   const thread = await openai.beta.threads.create()
 
   while (true) {
-    const userPrompt = readlineSync.question('\nUser: ')
+    const userPrompt = readlineSync.question('\nPrompt: ')
     if (userPrompt === 'q') break
 
     await openai.beta.threads.messages.create(thread.id, {
