@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "version": "1.0.0",
+  "name": "openai-assistants-api-with-function-calling",
+  "repository": "https://github.com/ozgrozer/openai-assistants-api-with-function-calling.git",
+  "author": {
+    "name": "Ozgur Ozer",
+    "email": "ozgr@live.com",
+    "url": "https://github.com/ozgrozer"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "openai": "^4.40.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
