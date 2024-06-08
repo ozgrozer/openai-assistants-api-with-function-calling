@@ -40,3 +40,7 @@ The current stock price of Nvidia is $887.89.
 
 Prompt: q
 ```
+
+## Preview
+
+<img src="./preview/preview.jpg" alt="" width="600" />
