@@ -2,6 +2,12 @@
 
 Just a demo of OpenAI's Assistants API with function calling, currently it checks for the realtime stock prices
 
+## Preview
+
+<img src="./preview/preview.jpg" alt="" width="600" />
+
+## Usage
+
 Clone this repository
 
 ```
@@ -40,7 +46,3 @@ The current stock price of Nvidia is $887.89.
 
 Prompt: q
 ```
-
-## Preview
-
-<img src="./preview/preview.jpg" alt="" width="600" />
